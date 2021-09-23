@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(87, 7, 87);
+}
+h1{
+    color: rgb(18, 133, 33);
+}
+li{
+    text-decoration: none;
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: rgb(206, 79, 168);
+    height: 50px;
+}
+
+nav ul{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.ad{
+   color: rgb(107, 107, 219);
+   font-style: italic;
+   font-size: 20px;
+}
+.Big{
+   font-size: 20px;
+   background-color: greenyellow;
+}
+.sd{
+    background-color: rgb(219, 43, 43);
+    padding: 40px;
+}
+p{
+    width: 78%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+a{
+    color: white;
+}
+
+article > ol{
+    width: 78%;
+    margin: auto;
+    padding: 40px;
+    background-color: rgb(233, 85, 213);
+    font-size: 20px;
+}
+ol li:first-child {
+    color: blueviolet;
+}
+ol li:last-child {
+    color: rgb(252, 63, 16);
+}
+li:nth-child(2n) {
+    color: aquamarine;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
